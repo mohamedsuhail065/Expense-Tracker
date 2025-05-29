@@ -1,0 +1,38 @@
+[
+  
+  {
+    "name": "Grocery Shopping",
+    "date": "2025-05-24",
+    "amount": 150.75,
+    "type": "expense",
+    "category": "Food"
+  },
+  {
+    "name": "Spotify Subscription",
+    "date": "2025-05-22",
+    "amount": 9.99,
+    "type": "expense",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Electricity Bill",
+    "date": "2025-05-18",
+    "amount": 75,
+    "type": "expense",
+    "category": "Utilities"
+  },
+  {
+    "name": "Movie Night",
+    "date": "2025-05-16",
+    "amount": 25,
+    "type": "expense",
+    "category": "Entertainment"
+  },
+    {
+    "name": "Movie Night",
+    "date": "2025-04-19",
+    "amount": 25,
+    "type": "expense",
+    "category": "Entertainment"
+  }
+]
