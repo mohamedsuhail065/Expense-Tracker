@@ -5,6 +5,7 @@ const Header = () => {
   const [greeting, setGreeting] = useState("");
 
   useEffect(() => {
+    //real-time time
     const updateTime = () => {
       const now = new Date();
       const hours = now.getHours();
@@ -12,7 +13,7 @@ const Header = () => {
         hour: "2-digit",
         minute: "2-digit",
       });
-      setCurrentTime(timeString);
+      setCurrentTime(timeString);    //greetings based on the time
       if (hours < 12) {
         setGreeting("Good morning,");
       } else if (hours < 17) {

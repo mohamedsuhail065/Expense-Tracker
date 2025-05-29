@@ -23,7 +23,7 @@ const BottomNavigation = () => {
       setShowForm(false);
     }
   };
-
+//form validation
   const validate = () => {
     const newErrors = {};
     const today = new Date().toISOString().split("T")[0];

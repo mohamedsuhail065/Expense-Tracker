@@ -28,10 +28,12 @@ const TransactionHistory = ({ currentMonth }) => {
   }, [currentMonth]);
 
   useEffect(() => {
+    //category filtration
     let temp = [...transactions];
     if (category !== "All") {
       temp = temp.filter((tx) => tx.category === category);
     }
+    // sorting by amount
     if (sortOrder === "asc") {
       temp.sort((a, b) => a.amount - b.amount);
     } else if (sortOrder === "desc") {

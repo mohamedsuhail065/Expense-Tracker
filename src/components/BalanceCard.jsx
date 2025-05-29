@@ -37,13 +37,14 @@ const BalanceCard = ({ currentMonth, setCurrentMonth }) => {
       });
       return txMonth === currentMonth && tx.type === "expense";
     });
+    //toatl expense calculation
     const total = filtered.reduce((sum, tx) => sum + tx.amount, 0);
     setExpense(total);
     setTransactions(filtered.length);
   }, [currentMonth]);
 
   const currentIndex = months.indexOf(currentMonth);
-
+//toggling between months
   const handlePrevMonth = () => {
     if (currentIndex > 0) {
       const prevMonth = months[currentIndex - 1];
