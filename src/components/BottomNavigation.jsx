@@ -14,7 +14,7 @@ const BottomNavigation = () => {
     category: "",
   });
   const [errors, setErrors] = useState({});
-
+//tab change (only colour)
   const handleTabClick = (tab) => {
     if (tab === "add") {
       setShowForm(!showForm);
